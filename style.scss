@@ -1,0 +1,56 @@
+// Namespace
+$portfolio-namespace: ".portfolio";
+
+// Variabelen
+$primary-color: #2C6AD1;
+$secondary-color: #333;
+
+// Stijlen
+#{$portfolio-namespace} {
+    // Globale stijlen voor de portfolio sectie
+    background-color: $primary-color;
+
+    header {
+        // Stijlen voor de header
+        background-color: $secondary-color;
+        color: white;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    nav {
+        // Stijlen voor de navigatiebalk
+        background-color: $secondary-color;
+        padding: 10px 0;
+        text-align: center;
+
+        a {
+            // Stijlen voor de navigatie-items
+            color: white;
+            text-decoration: none;
+            padding: 0 15px;
+        }
+    } 
+
+    // Voeg hier meer stijlen toe voor andere secties van je pagina
+
+    // Stijlen rechtstreeks toepassen op andere elementen zonder extra container
+    h1, h2, p {
+        color: white;
+    }
+
+    img {
+        display: block;
+        margin: 0 auto;
+    }
+
+    footer {
+        background-color: $secondary-color;
+        color: white;
+        text-align: center;
+        padding: 10px 0;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+}
