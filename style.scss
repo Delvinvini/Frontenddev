@@ -1,10 +1,13 @@
 // Namespace
 $portfolio-namespace: ".portfolio";
 
+
 // Variabelen
 $primary-color: #2C6AD1;
 $secondary-color: #333;
-
+$text-color: #fff;
+$font-size-base: 16px;
+$padding-base: 10px;
 // Stijlen
 #{$portfolio-namespace} {
     // Globale stijlen voor de portfolio sectie
